@@ -1,6 +1,7 @@
 import { getProject } from "@/sanity/schemas/sanity-utils";
-import { PortableText } from "@portabletext/react";
+
 import Image from "next/image";
+import { PortableText } from "@portabletext/react";
 
 type Props = {
   params: { project: string };
