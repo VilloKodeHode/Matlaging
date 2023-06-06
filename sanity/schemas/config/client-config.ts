@@ -1,7 +1,11 @@
+const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
+const dataset = process.env.NEXT_PUBLIC_SANITY_PROJECT_DATASET;
+const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION;
+
 const clientConfig = {
-  projectId: "7znjmgrr",
-  dataset: "production",
-  apiVersion: "2023-06-05",
+  projectId,
+  dataset,
+  apiVersion,
 };
 
 export default clientConfig;
